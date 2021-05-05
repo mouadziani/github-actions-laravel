@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Server 1",
+    "ip": "ssh.cluster027.hosting.ovh.net",
+    "username": "",
+    "password": "",
+    "port": "22",
+    "beforeHooks": "",
+    "afterHooks": "",
+    "path": ""
+  }
+]
