@@ -48,6 +48,7 @@ jobs:
           JSON="${JSON//$'\n'/'%0A'}"
           JSON="${JSON//$'\r'/'%0D'}"
           echo "::set-output name=deployment-matrix::$JSON"
+
   prepare-release-on-servers:
     name: "${{ matrix.server.name }}: Prepare release"
     runs-on: ubuntu-latest
